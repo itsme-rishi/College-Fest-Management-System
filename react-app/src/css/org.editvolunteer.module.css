@@ -1,0 +1,79 @@
+/* Table Styles */
+.background {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('path/to/your/background/image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #0c0b0b;
+}
+.edit_volunteer_table {
+    width: 80%; /* Make the table fill its container */
+    border-collapse: collapse; /* Collapse the borders of the table */
+    margin: 0 auto; /* Center the table horizontally */
+    margin-bottom: 2px;
+    background-color: #0c0b0b;
+
+  }
+  
+  /* Styles for table headers */
+  /* Styles for table headers */
+/* Styles for table headers */
+.edit_volunteer_th {
+  padding: 10px; /* Add padding to table headers */
+  text-align: center; /* Center the text in table headers */
+  border: 1px solid #f3f2f1; /* Add border to table headers */
+  color: #fcf9f9; /* Add color to text */
+  font-size: 15px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+}
+
+/* Styles for table cells */
+.edit_volunteer_td {
+  padding: 10px; /* Add padding to table cells */
+  text-align: center; /* Center the text in table cells */
+  border: 1px solid #f4f2f2; /* Add border to table cells */
+  color: #faf7f7; /* Add color to text */
+  font-size: 13px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+}
+.edit_volunteer_table_h3{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+
+}
+.edit_volunteer_table_h2{
+    color: rgb(237, 237, 39);
+    text-align: center;
+    margin-top: 25px;
+    
+}
+  /* Button Styles */
+  .edit_volunteer_button {
+    display: block; /* Display buttons as block elements */
+    margin: 0 auto 10px; /* Center buttons horizontally and add space below */
+    padding: 6px 12px !important ;/* Decrease padding to decrease button size */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px; /* Decrease font size */
+    font-weight: bold;
+  }
+  
+  
+  .edit_volunteer_button:hover {
+    background-color: #2b2828;
+    color: rgb(64, 63, 63);
+  }
+  
+  
+  /* Adjustments for sub-tables */
+  .edit_volunteer_h3 {
+    margin-top: 0px;
+    color: white; /* Add space between tables */
+  }
+  

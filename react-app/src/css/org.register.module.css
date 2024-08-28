@@ -1,0 +1,173 @@
+.ext_register_form {
+    width: 300px;
+    background-color: rgba(46, 45, 45, 0.796);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(8, 7, 16, 0.6);
+    padding: 40px 25px;
+    /* Adjust height or make it flexible */
+    /* height: 395px; */
+    height: auto; /* or remove height property */
+    overflow-y: auto; /* Allow vertical scrolling if necessary */
+}
+
+
+.ext_register_form > div {
+    margin-bottom: 0px;
+}
+
+
+
+/* register.module.css */
+
+/* Reset */
+:before,
+:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+.body {
+    background-color: #dbdae0;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Background Styles */
+.background {
+    width: 100vw; /* Use viewport width */
+    height: 100vh; /* Use viewport height */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Form Styles */
+/* .ext_register_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(8, 7, 16, 0.6);
+    width: 600px; 
+    margin: auto; 
+} */
+
+/* Header Styles */
+.ext_register_form h1,
+.ext_register_form h2,
+.ext_register_form h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff; /* Text color for headings */
+}
+.ext_register_form h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white; /* Color for h1 heading text */
+    text-align: center; /* Align the text in the center */
+    width: 100%; /* Ensure the text takes up the full width */
+}
+
+.ext_register_form h2 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    margin-top: 2px;
+    font-weight: bold; /* Make the text bold */
+    color: white; /* Color for h1 heading text */
+    text-align: center; /* Align the text in the center */
+    width: 100%; /* Ensure the text takes up the full width */
+}
+
+.ext_register_form h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+/* Label Styles */
+.ext_register_form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.ext_register_form select {
+    appearance: none; /* Remove default select styling */
+    /* background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="%23ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>'); */
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center; /* Position dropdown icon */
+    padding-right: 30px; /* Add space for the icon */
+    width: 200%;
+    height: 40px;
+    font-size: 14px; /* Increase font size of text */
+    font-weight: 300; /* Reduce font weight for better appearance */
+    color:rgb(20, 20, 20) ;
+    background-color: rgba(255, 255, 255, 0.79);
+    /*font color=black*/
+}
+
+.ext_register_form input {
+    display: block; /* Change display to block to make it take up full width */
+    width: 200%; /* Adjust width to fit 80% of the form width */
+    margin: 5px auto; /* Set margin to auto to center horizontally */
+    padding: 8px 12px; /* Adjust padding for better appearance */
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.79);
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    text-align: left; /* Align input text to the left */
+}
+
+.ext_register_form textarea {
+    display: block; /* Change display to block to make it take up full width */
+    width: 200%; /* Adjust width to fit 80% of the form width */
+    margin: 5px auto; /* Set margin to auto to center horizontally */
+    padding: 8px 12px; /* Adjust padding for better appearance */
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.77);
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    text-align: left; /* Align input text to the left */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+
+}
+
+
+/* Button Styles */
+.ext_register_form button {
+    width: 50%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #080710;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+    .ext_register_form {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .ext_register_form div {
+        width: calc(50% - 20px);
+    }
+}

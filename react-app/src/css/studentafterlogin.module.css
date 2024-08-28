@@ -1,0 +1,188 @@
+/* studentAfterLogin.module.css */
+/* studentAfterLogin.module.css */
+
+
+/* studentAfterLogin.module.css */
+
+/* Reset */
+:before,
+:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+/* Body Styles */
+.body {
+    background-color: #f0f0f0; /* Light background color */
+    font-family: Arial, sans-serif; /* Use Arial font with fallback to sans-serif */
+    color: #333; /* Default text color */
+}
+
+/* Container Styles */
+.afterlogin {
+    width:100%;
+    height: 100vh;
+    /* max-width: 800px; Set maximum width for better readability */
+    margin: 0px auto; /* Center the container */
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading Styles */
+.afterlogin h1,
+.afterlogin h2 {
+    font-weight: bold; /* Make headings bold */
+    color: #050404; /* Heading text color */
+    margin-bottom: 10px; /* Add space after headings */
+    margin-top: 10px;
+}
+
+/* List Styles */
+.afterlogin ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+.afterlogin li {
+    margin-bottom: 20px; /* Add space between events */
+}
+
+/* Button Styles */
+.afterlogin button {
+    padding: 8px 16px; /* Add padding to buttons */
+    margin: 2px 10px; /* Leave some gap before and after each button */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #252525; /* Blue background */
+    color: #f1eaea; /* White text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    flex: 1; /* Allow buttons to grow to fill the space */
+}
+
+.afterlogin button:first-child {
+    margin-left: 10px; /* Remove left margin for the first button */
+}
+
+.afterlogin button:last-child {
+    margin-right: 10px; /* Remove right margin for the last button */
+}
+
+.afterlogin .button-container {
+    display: flex;
+    justify-content: center; /* Center align buttons */
+}
+.logoutButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 24px !important; /* Adjust padding to resize button */
+    width: auto; /* Set width to auto */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px !important; /* Adjust font size */
+    background-color: #7c7a7a; /* Optional: Set background color */
+    color: #f9f7f7; /* Optional: Set text color */
+    transition: background-color 0.3s; /* Add transition for smooth color change */
+  }
+  
+  .logoutButton:hover {
+    background-color: #322f2f; /* Change background color on hover */
+  }
+  
+  
+  
+  
+  
+
+.afterlogin button:hover {
+    background-color: #5e6063; /* Darker blue on hover */
+}
+/* Table Styles */
+.afterlogin table {
+    width: 80%;
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    background-color: #abacac;
+}
+
+.afterlogin th,
+.afterlogin td {
+    padding: 8px;
+    text-align: left;
+    border: 1.5px solid #060606; /* Thick border */
+    color: #0a0909; /* Change text color */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.afterlogin th {
+    background-color: #6b6868; /* Background color for column headers */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Popup Styles */
+.winnersPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffffad;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+
+.winnersPopup h2 {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.winnersPopup table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.winnersPopup th,
+.winnersPopup td {
+    padding: 8px;
+    background-color: #838181eb;
+
+    border: 1px solid #ddd;
+}
+
+.winnersPopup th {
+    background-color: #3c3b3be2;
+    font-weight: bold;
+}
+.winnersPopup button {
+    margin: 10px auto 0; /* Center the button horizontally and add top margin */
+    padding: 8px 16px;
+    background-color: #4e4f50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block; /* Ensure the button is displayed as a block element */
+}
+
+
+.winnersPopup button:hover {
+    background-color: #121314;
+}
+
+
+/* studentafterlogin.module.css */
+
+/* Background Image */
+.afterlogin {
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}

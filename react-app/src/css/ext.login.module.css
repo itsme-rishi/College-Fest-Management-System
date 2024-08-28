@@ -1,0 +1,81 @@
+/* Reset */
+.ext_form:before,
+.ext_form:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Form Styles */
+.ext_form {
+    height: 380px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.794);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(8, 7, 16, 0.6);
+    padding: 40px 25px;
+}
+
+/* Form Element Styles */
+.ext_form * {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+.ext_form h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.ext_form h4 {
+    font-size: 16px;
+    margin-bottom: -30px;
+    text-align: left;
+}
+
+.ext_form label {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.ext_form input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.845);
+    border-radius: 3px;
+    padding: 0 8px;
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.ext_form ::placeholder {
+    color: #e5e5e5;
+}
+
+.ext_form button {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+}

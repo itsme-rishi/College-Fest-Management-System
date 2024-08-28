@@ -1,0 +1,62 @@
+.adminEditOrganiser_table_ {
+    width: 40%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminEditOrganiser_table_un_ {
+    width: 70%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminEditOrganiser_th_, .adminEditOrganiser_td_ {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center text within table cells */
+    border-radius: 5px;
+}
+
+.adminEditOrganiser_th_ {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+.adminEditOrganiser_button_ {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.adminEditOrganiser_button_:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.adminEditOrganiser_h2_, .adminEditOrganiser_button_ {
+    text-align: center; /* Center the h2 headers and button */
+    /* margin-top: 20px; Add some space above the headers and button */
+    margin-right: 5px;
+}
+
+.adminEditOrganiser_button_center_ {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 30px; /* Add some space above the button */
+    margin-bottom: 50px;
+}
+
+.adminEditOrganiser_td_ ul {
+    list-style-type: none; /* Remove default list styling */
+}
+
+.adminEditOrganiser_h2_ {
+    margin-top: 30px;
+}

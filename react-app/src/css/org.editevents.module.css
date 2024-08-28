@@ -1,0 +1,54 @@
+/* Styles for the h2 heading */
+.edit_events_h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+    color:white;
+
+  }
+  
+  /* Styles for the table */
+  .edit_events_table {
+    width: 100%; /* Make the table fill its container */
+    border-collapse: collapse; /* Collapse the borders of the table */
+    margin: 0 auto; /* Center the table horizontally */
+
+  }
+  
+  /* Styles for table headers */
+  /* Styles for table headers */
+/* Styles for table headers */
+.edit_events_th {
+  padding: 10px; /* Add padding to table headers */
+  text-align: center; /* Center the text in table headers */
+  border: 1px solid #ddd; /* Add border to table headers */
+  color: #fcf9f9; /* Add color to text */
+  font-size: 20px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+}
+
+/* Styles for table cells */
+.edit_events_td {
+  padding: 10px; /* Add padding to table cells */
+  text-align: center; /* Center the text in table cells */
+  border: 1px solid #f4f2f2; /* Add border to table cells */
+  color: #faf7f7; /* Add color to text */
+  font-size: 16px; /* Increase font size */
+  font-weight: bold; /* Make the font bold */
+}
+  
+  /* Styles for buttons */
+  .edit_events_button {
+    margin: 5px; /* Add margin around the buttons */
+    padding: 10px 20px; /* Add padding to the buttons */
+    font-size: 14px; /* Set the font size of the buttons */
+    border: none; /* Remove the border from buttons */
+    border-radius: 4px; /* Add border radius to buttons */
+    background-color: #4e4f50; /* Set the background color of buttons */
+    color: #fff; /* Set the text color of buttons */
+    cursor: pointer; /* Set cursor to pointer for buttons */
+  }
+  
+  .edit_events_button:hover {
+    background-color: #333; /* Change background color on hover */
+  }
+  

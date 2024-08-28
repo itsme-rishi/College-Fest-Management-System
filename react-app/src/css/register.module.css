@@ -1,0 +1,170 @@
+/* Reset */
+:before,
+:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+.body {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #dfdede;
+    margin: 0;
+    padding: 20px 0; /* Add padding to the top and bottom */
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+/* Background Styles */
+.background {
+    width: 100vw; /* Use viewport width */
+    height: 100vh; /* Use viewport height */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #f2f2f5;
+}
+
+/* Form Styles */
+.register_form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.788);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(8, 7, 16, 0.6);
+    width: 60%; /* Adjust width of the form */
+    max-width: 650px; /* Set maximum width to prevent overflowing */
+    margin: auto; /* Center the form horizontally */
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 768px) {
+    .register_form div {
+        width: calc(50% - 20px); /* Adjust width of child elements */
+    }
+}
+
+/* Header Styles */
+.register_form_h1,
+.register_form h2,
+.register_form h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #fefdfd; /* Text color for headings */
+    text-align: center; /* Align the text in the center */
+    width: 100%; /* Ensure the text takes up the full width */
+    font-size: 26px;
+}
+
+.register_form_h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+.register_form h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    font-weight: bold; /* Make the text bold */
+}
+
+.register_form h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Label Styles */
+.register_form label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/* Input and Select Styles */
+.register_form input,
+.register_form select {
+    width: 100%;
+    height: 40px;
+    padding: 0 8px;
+    margin-top: 6px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #0a0303;
+    background-color: rgba(237, 236, 236, 0.953);
+    border: 1px solid #0a0303; /* Adjust border thickness */
+}
+
+/* Dropdown Styles */
+.register_form select {
+    appearance: none; /* Remove default arrow icon */
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+/* Dropdown Option Styles */
+.register_form select option {
+    background-color: #ffffff; /* Background color of options */
+    color: #0a0303; /* Text color of options */
+}
+
+/* Hover Effect on Options */
+.register_form select option:hover {
+    background-color: #dfd8d8; /* Background color on hover */
+    color: #080710; /* Text color on hover */
+}
+
+/* Focus Effect on Dropdown */
+.register_form select:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #201f2000; /* Change border color on focus */
+    box-shadow: 0 0 0 1px rgba(2, 2, 2, 0.696); /* Add focus effect */
+}
+
+/* Stylish Dropdown Arrow */
+.register_form select::-ms-expand {
+    display: none; /* Hide default arrow icon for IE */
+}
+.register_form select::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #6c63ff; /* Color of arrow */
+    pointer-events: none; /* Ensure the arrow doesn't interfere with clicks */
+}
+
+/* Button Styles */
+.register_form_button {
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f8f6f6;
+    color: #080710;
+    border: none;
+    border-radius: 4px;
+    border-color: #080710;
+    border-width: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: right;
+}

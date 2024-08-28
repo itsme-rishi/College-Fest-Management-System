@@ -1,0 +1,74 @@
+/* Table for Approved External Students */
+.adminExternalParticipant_table_approved_ {
+    width: 40%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminExternalParticipant_th_approved_, .adminExternalParticipant_td_approved_ {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center text within table cells */
+    border-radius: 5px;
+}
+
+.adminExternalParticipant_th_approved_ {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+/* Table for Unapproved External Students */
+.adminExternalParticipant_table_unapproved_ {
+    width: 80%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminExternalParticipant_th_unapproved_, .adminExternalParticipant_td_unapproved_ {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center text within table cells */
+    border-radius: 5px;
+}
+
+.adminExternalParticipant_th_unapproved_ {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+/* Button styling */
+.adminExternalParticipant_button_ {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px; /* Add space to the right side of each button */
+}
+
+.adminExternalParticipant_button_:hover, .adminExternalParticipant_button_add_:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.adminExternalParticipant_h2_ {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.adminExternalParticipant_button_add_ {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px; /* Add space to the right side of each button */
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space above the button */
+}

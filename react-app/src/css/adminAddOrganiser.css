@@ -1,0 +1,73 @@
+.adminAddOrganiser_container_ {
+    width: 70%;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 30px; /* Add some space above the container */
+}
+
+.adminAddOrganiser_h1_ {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.adminAddOrganiser_form_ {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminAddOrganiser_form div {
+    margin-bottom: 15px;
+}
+
+.adminAddOrganiser_label_ {
+    width: 120px; /* Fixed width for labels */
+    margin-right: 10px; /* Add space between label and input */
+    margin-left: 200px;
+}
+
+.adminAddOrganiser_button_ {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 500px;
+}
+
+.adminAddOrganiser_button_:hover {
+    background-color: #0056b3;
+}
+
+.adminAddOrganiser_input_1_ {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 170px;
+}
+.adminAddOrganiser_input_2_ {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 139px;
+}
+.adminAddOrganiser_input_3_ {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 143px;
+}
+.adminAddOrganiser_input_4_ {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+}

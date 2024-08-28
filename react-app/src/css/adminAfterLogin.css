@@ -1,0 +1,48 @@
+.adminAfterLogin_container_ {
+    position: absolute;
+    width : 100%;
+    height : 100vh;
+}
+
+.adminAfterLogin_header_ {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.adminAfterLogin_center_ {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.adminAfterLogin_table_  {
+    border-collapse: collapse;
+    width: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f0f0f0; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adminAfterLogin_td_ {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.adminAfterLogin_button_ {
+    display: block;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    margin: 3px;
+    background-color: #060606;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adminAfterLogin_button_:hover {
+    background-color: #292b2c; 
+}

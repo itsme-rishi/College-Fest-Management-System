@@ -1,0 +1,59 @@
+/* Reset */
+:before,
+:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: aqua;
+    background-color: #d6d7d7;
+}
+
+/* Background Styles */
+.background {
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('path/to/your/background/image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #111212;
+}
+
+/* Heading Styles */
+.heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 36px;
+    position: relative;
+    margin-top: 0px; /* Adjust margin-top as needed */
+}
+
+
+.button_row {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.button_row_button {
+    margin: 0 10px; /* Add spacing between buttons */
+    padding: 10px 20px; /* Add padding to buttons */
+    background-color: #555556;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition for background-color */
+}
+
+.button_row_button:hover {
+    background-color: #111212; /* Change background color on hover */
+}

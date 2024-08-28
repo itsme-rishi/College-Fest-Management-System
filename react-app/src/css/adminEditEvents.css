@@ -1,0 +1,70 @@
+.adminEditEvents_container_ {
+    width: 70%;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 30px; /* Add some space above the container */
+}
+
+.adminEditEvents_h2_ {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.adminEditEvents_ul_ {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.adminEditEvents_li_ {
+    margin-bottom: 10px; /* Add some space between list items */
+}
+
+.adminEditEvents_table_ {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.adminEditEvents_th_, .adminEditEvents_td_ {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.adminEditEvents_th_ {
+    background-color: #f2f2f2;
+}
+
+.adminEditEvents_button_ {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.adminEditEvents_button_:hover {
+    background-color: #0056b3;
+}
+
+.adminEditEvents_button_add_ {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+/* .adminEditEvents_button_add_ :hover {
+    background-color: #0056b3;
+} */
+
+button.adminEditEvents_button_add_:hover {
+    background-color: #0056b3;
+}

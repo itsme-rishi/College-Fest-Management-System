@@ -1,0 +1,47 @@
+
+.organiserShowParticipants_body_ {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+  }
+  .organiserShowParticipants_container_ {
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+  .organiserShowParticipants_h1_ {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .organiserShowParticipants_h2_ {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .organiserShowParticipants_table_ {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    background-color: #fff; /* Set table background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Add box shadow */
+
+  }
+
+  .organiserShowParticipants_table_ tr:hover {
+    background-color: #f5f5f5; /* Add hover effect */
+  }
+
+  .organiserShowParticipants_table_ th,
+  .organiserShowParticipants_table_ td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+
+  .organiserShowParticipants_table_ th.orgShowPart_heading-row {
+    background-color: #ede6ef; /* Different color for heading row */
+  }

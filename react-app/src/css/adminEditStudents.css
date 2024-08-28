@@ -1,0 +1,80 @@
+/* Table for Approved Students */
+.adminEditStudents_table_approved {
+    width: 40%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminEditStudents_th_approved, .adminEditStudents_td_approved {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center text within table cells */
+    border-radius: 5px;
+}
+
+.adminEditStudents_th_approved {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+/* Table for Unapproved Students */
+.adminEditStudents_table_unapproved {
+    width: 70%;
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space between tables */
+    text-align: center; /* Center text within the table */
+    border-radius: 5px;
+}
+
+.adminEditStudents_th_unapproved, .adminEditStudents_td_unapproved {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center text within table cells */
+    border-radius: 5px;
+}
+
+.adminEditStudents_th_unapproved {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+.adminEditStudents_h2_ {
+    text-align: center; /* Center the h2 headers */
+    margin-top: 30px; /* Add some space above the headers */
+}
+ 
+/* Centered Add Student Button */
+.adminEditStudents_button_add_ {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    margin-top: 20px; /* Add some space above the button */
+    
+}
+
+/* Add space to the right side of each button */
+.adminEditStudents_button_ {
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 10px; /* Add space to the right side of each button */
+}
+
+/* Hover effect for buttons */
+.adminEditStudents_button_:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.adminEditStudents_button_add_:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}

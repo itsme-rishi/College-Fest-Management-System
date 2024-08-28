@@ -1,0 +1,85 @@
+.adminAddEvent_container_ {
+    width: 70%;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top: 30px; /* Add some space above the container */
+}
+
+.adminAddEvent_h1_ {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.adminAddEvent_form_ {
+    display: flex;
+    flex-direction: column;
+}
+
+.adminAddEvent_form div {
+    margin-bottom: 15px;
+}
+
+.adminAddEvent_label_ {
+    width: 120px; /* Fixed width for labels */
+    margin-right: 10px; /* Add space between label and input */
+    margin-left: 200px;
+}
+
+.adminAddEvent_button_ {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: 30%;
+    margin-left: 355px;
+    margin-top: 15px;
+}
+
+.adminAddEvent_button_:hover {
+    background-color: #0056b3;
+}
+
+.adminAddEvent_input_1_{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 90px;
+}
+
+.adminAddEvent_input_2_{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 98px;
+}
+
+.adminAddEvent_input_3_{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 97px;
+}
+
+.adminAddEvent_input_4_{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+}
+
+.adminAddEvent_input_5_{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30%;
+    margin-bottom: 5px;
+    margin-left: 70px;
+}
